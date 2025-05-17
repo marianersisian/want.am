@@ -270,3 +270,7 @@ header {
     align-items: center;    
     font-weight: 600;
 }
+
+.followBlock {
+    margin: 70px 0;
+}
