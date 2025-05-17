@@ -235,3 +235,30 @@ header {
 .add p {
     padding: 10px 10px 0;
 }
+
+.seeMore {
+    width: 95%;
+    height: 40px;
+    background-color: #E3E8FC;
+    color: #7159f3;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin: 10px 30px;
+}
+
+
+.giftBlock {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.giftBlock img{
+    width: 83%;
+}
+
