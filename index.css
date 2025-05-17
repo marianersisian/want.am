@@ -274,3 +274,35 @@ header {
 .followBlock {
     margin: 70px 0;
 }
+
+.headerPhone, .headerEmail {
+    display: flex;
+    gap: 10px;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerTopLeft {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    color: #444;
+}
+
+.footerTopRight {
+    display: flex; 
+    gap: 0 30px;
+}
+
+.footerTopRight p{
+    margin: 15px 0;
+    color: #444;
+}
+
+.footerBottom {
+    display: block;
+}
