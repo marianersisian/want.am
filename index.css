@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-
+    font-size: 14px;
 }
 
 .main {
@@ -124,3 +124,25 @@ header {
     grid-column: span 2;
 }
 
+
+.advantages {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.advantage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage p {
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+}
